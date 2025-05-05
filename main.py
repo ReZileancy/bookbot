@@ -1,7 +1,7 @@
-from stats import get_num_words
+import stats
 
 def main():
-     stats.getNumWords()
+     stats.get_num_words()
 
     
 
