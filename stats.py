@@ -9,7 +9,7 @@ def get_book_text(filePath):
         fileContents = file.read()
     return fileContents
 
-def countChar(self,text):
+def countChar(text):
     freq = {}
     for c in text.lower():
         if c in freq:
