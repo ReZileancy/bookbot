@@ -9,12 +9,11 @@ def get_book_text(filePath):
         fileContents = file.read()
     return fileContents
 
-def countChar():
-    text = get_book_text("books/frankenstein.txt")
+def countChar(self,text):
     freq = {}
-    for c in text:
-        if c in freq[c]:
+    for c in text.lower():
+        if c in freq:
             freq[c] += 1
         else:
             freq[c] = 1
-    print(freq)
+    return(freq)
