@@ -1,5 +1,5 @@
-def get_num_words():
-    text = get_book_text("books/frankenstein.txt")
+def get_num_words(path):
+    text = get_book_text(path)
     words = text.split()
     wordCount = len(words)
     print(f"Found {wordCount} total words")
