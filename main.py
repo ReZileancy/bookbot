@@ -12,7 +12,7 @@ def main():
     print("Analyzing book found at " + book_text + " ...")
     print("----------- Word Count ----------")
     
-    bookContent = get_book_content(book_text)
+    bookContent = get_book_text(book_text)
     get_num_words(bookContent)
     
     freq = countChar(bookContent)
