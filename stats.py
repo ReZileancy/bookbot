@@ -1,5 +1,6 @@
+bookText = sys.argv[1]
 def get_num_words():
-    text = get_book_text("books/frankenstein.txt")
+    text = bookText
     words = text.split()
     wordCount = len(words)
     print(f"Found {wordCount} total words")
