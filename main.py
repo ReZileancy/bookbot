@@ -11,7 +11,7 @@ def main():
     print("============ BOOKBOT ============")
     print("Analyzing book found at " + book_text + " ...")
     print("----------- Word Count ----------")
-    get_num_words()
+    get_num_words(book_text)
     
     freq = countChar(book_text)
     sorted_chars = sortedDict(freq)
