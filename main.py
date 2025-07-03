@@ -23,7 +23,7 @@ def main():
         if chars["char"].isalpha() == True:
             ch = chars["char"]
             nu = chars["num"]
-            print f("{ch}:{nu}")
+            print(f"{ch}:{nu}")
     
     print("============= END ===============")
 main()
