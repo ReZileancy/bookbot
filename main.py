@@ -2,8 +2,6 @@ from stats import get_book_text,get_num_words,countChar,sortedDict
 import sys
 
 def main():
-    print(f"DEBUG: sys.argv = {sys.argv}")
-    print(f"DEBUG: len(sys.argv) = {len(sys.argv)}")
     if len(sys.argv) == 2:
         book_text = sys.argv[1]
     else:
