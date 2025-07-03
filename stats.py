@@ -1,11 +1,10 @@
-path = sys.argv[1]
 def get_num_words():
-    text = path
+    text = get_book_text("books/frankenstein.txt")
     words = text.split()
     wordCount = len(words)
     print(f"Found {wordCount} total words")
 
-def get_book_text(path):
+def get_book_text(filePath):
     with open(filePath, encoding="utf-8") as file:
         fileContents = file.read()
     return fileContents
