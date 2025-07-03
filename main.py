@@ -20,7 +20,10 @@ def main():
     
     print("--------- Character Count -------")
     for chars in sorted_chars:
-        print(chars[char] + ":" + chars[num]
+        if chars["char"].isalpha == True:
+            ch = chars["char"]
+            nu = chars["num"]
+            printf({ch} + ":" + {nu})
     
     print("============= END ===============")
 main()
