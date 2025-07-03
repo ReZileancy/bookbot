@@ -20,7 +20,7 @@ def main():
     
     print("--------- Character Count -------")
     for char in sorted_chars:
-        print(sorted_chars[char]
+        print(sorted_chars[char] + ":" sorted_chars[count]
     
     print("============= END ===============")
 main()
