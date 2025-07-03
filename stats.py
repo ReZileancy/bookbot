@@ -1,6 +1,6 @@
-def get_num_words(path):
-    text = get_book_text(path)
-    words = text.split()
+def get_num_words(book):
+    content = book
+    words = content.split()
     wordCount = len(words)
     print(f"Found {wordCount} total words")
 
