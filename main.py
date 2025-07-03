@@ -1,4 +1,5 @@
 from stats import get_book_text,get_num_words,countChar,sortedDict
+import sys
 
 def main():
     print("============ BOOKBOT ============")
