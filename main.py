@@ -19,8 +19,8 @@ def main():
     sorted_chars = sortedDict(freq)
     
     print("--------- Character Count -------")
-    # Loop through sorted_chars and print each alphabetical character and its count
-    # ...
+    for char in sorted_chars:
+        print(sorted_chars[char]
     
     print("============= END ===============")
 main()
